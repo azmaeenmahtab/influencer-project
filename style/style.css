@@ -83,6 +83,14 @@ nav {
   max-width: 95px;
   max-height: 50px;
 }
+/* collection style */
+.container1 {
+  display: flex;
+}
+.rating {
+  display: flex;
+  gap: 10px;
+}
 
 @media screen and (max-width: 360px) {
   nav {
