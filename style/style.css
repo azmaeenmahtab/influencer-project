@@ -60,6 +60,8 @@ nav {
   color: white;
   width: 190px;
   height: 44px;
+}
+.primary {
   border-radius: 30px;
 }
 .hbanner-picture {
@@ -129,6 +131,20 @@ nav {
   font-size: 16px;
   font-weight: 700;
 }
+/* bottom banner style */
+.bbanner-container {
+  max-width: 1320px;
+  margin: 0px 110px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.bbanner-title {
+  font-size: 38px;
+  font-weight: 700;
+  margin: 0px;
+}
 
 @media screen and (max-width: 360px) {
   nav {
@@ -174,5 +190,9 @@ nav {
   .container1 {
     flex-direction: column;
     margin: 0px;
+  }
+  .see-more {
+    margin: 0px;
+    padding: 0px;
   }
 }
