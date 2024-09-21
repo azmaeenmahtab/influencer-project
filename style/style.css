@@ -30,9 +30,11 @@ nav {
 /* head banner style */
 .hbanner-container {
   max-width: 1320px;
+  max-height: 550px;
   margin: 100px;
   display: flex;
   margin-top: 50px;
+  margin-bottom: 0px;
 }
 .hbanner-content {
   max-width: 600px;
@@ -64,4 +66,20 @@ nav {
 .relativepic {
   position: relative;
   bottom: 450px;
+}
+/* sponsor style */
+.sponsors {
+  max-width: 1320px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 110px;
+  margin-left: 110px;
+  border-top: 1px solid #aaaaaa;
+  border-bottom: 1px solid #aaaaaa;
+}
+.sponsors img {
+  max-width: 95px;
+  max-height: 50px;
 }
