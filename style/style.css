@@ -83,3 +83,46 @@ nav {
   max-width: 95px;
   max-height: 50px;
 }
+
+@media screen and (max-width: 360px) {
+  nav {
+    flex-direction: column;
+    margin: 0px;
+    margin-bottom: 40px;
+  }
+  .nav-ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding-left: 0px;
+  }
+  .hbanner-container {
+    flex-direction: column-reverse;
+    margin: 10px;
+  }
+  .hbanner-title {
+    font-size: 28px;
+  }
+  .hbanner-content {
+    text-align: center;
+  }
+  .hbanner-picture {
+    max-width: 257px;
+    max-height: 275px;
+    margin-left: 0px;
+    padding-left: 40px;
+  }
+  .relativepic {
+    bottom: 250px;
+  }
+  .hbanner-picture img {
+    width: 100%;
+    height: 100%;
+  }
+  .sponsors {
+    flex-direction: column;
+    border: none;
+    gap: 30px;
+    margin-top: 30px;
+  }
+}
