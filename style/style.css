@@ -108,12 +108,26 @@ nav {
 .card {
   text-align: left;
   background-color: white;
-  padding: 10px;
+  padding: 20px;
   border-radius: 8px;
 }
 .rating {
   display: flex;
   gap: 10px;
+}
+.see-more {
+  max-width: 1320px;
+  margin-right: 110px;
+  margin-left: 110px;
+  text-align: right;
+  padding-right: 40px;
+}
+.see-more button {
+  border: none;
+  color: #e02c6d;
+  background-color: #fafaf9;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 360px) {
@@ -156,5 +170,9 @@ nav {
     border: none;
     gap: 30px;
     margin-top: 30px;
+  }
+  .container1 {
+    flex-direction: column;
+    margin: 0px;
   }
 }
