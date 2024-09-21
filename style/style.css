@@ -1,3 +1,15 @@
+/* shared style */
+.title {
+  font-size: 24px;
+  color: #3a3a3a;
+  font-weight: 700;
+}
+.shared-font {
+  font-size: 16px;
+  color: #3a3a3a;
+  font-weight: 600;
+}
+/* nav section style */
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -14,4 +26,42 @@ nav {
   display: flex;
   list-style: none;
   gap: 40px;
+}
+/* head banner style */
+.hbanner-container {
+  max-width: 1320px;
+  margin: 100px;
+  display: flex;
+  margin-top: 50px;
+}
+.hbanner-content {
+  max-width: 600px;
+}
+.hbanner-title {
+  font-size: 52px;
+  font-weight: 700;
+  color: #3a3a3a;
+  margin-bottom: 0px;
+}
+.hbanner-description {
+  margin-top: 10px;
+  margin-bottom: 26px;
+}
+.btn {
+  background-color: #e02c6d;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  width: 190px;
+  height: 44px;
+  border-radius: 30px;
+}
+.hbanner-picture {
+  max-width: 475px;
+  margin-left: 210px;
+}
+.relativepic {
+  position: relative;
+  bottom: 450px;
 }
